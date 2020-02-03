@@ -1,0 +1,55 @@
+.ToDoRegister {
+  margin: 10px 30px;
+}
+
+.newToDo {
+  width: 50%;
+  border: none;
+  border-bottom: 2px solid;
+  outline: none;
+  transition: 0.2s ease-in-out;
+  font-size: 19px;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.newToDo:focus {
+  border-bottom: 2px solid rgb(28, 106, 207);
+  transition: 0.2s ease-in-out;
+}
+
+.btnAdd {
+  background-color: white;
+  color: rgb(28, 106, 207);
+  font-size: large;
+  border: 2px solid rgb(28, 106, 207);
+  width: 10%;
+  height: 30px;
+  border-radius: 50px;
+  margin-left: 1%;
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+  outline: none;
+}
+
+.btnAdd:hover {
+  background-color: rgb(28, 106, 207);
+  color: white;
+  transition: 0.1s ease-in-out;
+}
+
+.dateToDo {
+  width: 11%;
+  border: none;
+  border-bottom: 2px solid;
+  outline: none;
+  font-size: 19px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  transition: 0.2s ease-in-out;
+}
+
+.dateToDo:focus {
+  border-bottom: 2px solid rgb(28, 106, 207);
+  transition: 0.2s ease-in-out;
+}
